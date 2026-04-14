@@ -3,9 +3,9 @@ import { useState } from "react";
 const COLORS = {
   amazon:      { bg: "#085041", border: "#5DCAA5", title: "#9FE1CB", body: "#5DCAA5" },
   airbus:      { bg: "#3C3489", border: "#AFA9EC", title: "#CECBF6", body: "#AFA9EC" },
-  aircomGap:   { bg: "#633806", border: "#EF9F27", title: "#FAC775", body: "#EF9F27" },
-  aircomGood:  { bg: "#085041", border: "#5DCAA5", title: "#9FE1CB", body: "#5DCAA5" },
-  aircomBad:   { bg: "#711B13", border: "#F09B7B", title: "#F5C4B3", body: "#F09B7B" },
+  airconGap:   { bg: "#633806", border: "#EF9F27", title: "#FAC775", body: "#EF9F27" },
+  airconGood:  { bg: "#085041", border: "#5DCAA5", title: "#9FE1CB", body: "#5DCAA5" },
+  airconBad:   { bg: "#711B13", border: "#F09B7B", title: "#F5C4B3", body: "#F09B7B" },
   neutral:     { bg: "#262624", border: "rgba(222,220,209,0.18)", title: "#FAF9F5", body: "#C2C0B6" },
 };
 

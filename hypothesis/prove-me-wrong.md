@@ -2,7 +2,7 @@
 
 # Prove the Hypothesis Wrong
 
-**Five specific data points that would move the Aircom CES score above 60**
+**Five specific data points that would move the Aircon CES score above 60**
 
 ---
 
@@ -20,13 +20,13 @@
 
 ## Why this document exists
 
-The Aircom CES score of 42/100 was built entirely from public data — AWS architecture documentation, Airbus Skywise program records, IATA freight volatility data, and publicly available information about Aircom's platform architecture.
+The Aircon CES score of 42/100 was built entirely from public data — AWS architecture documentation, Airbus Skywise program records, IATA freight volatility data, and publicly available information about Aircon's platform architecture.
 
 Public data has limits. It shows what is visible. It cannot confirm what is not disclosed.
 
 This document identifies the five internal data points that would, if presented, move the CES score from 42 to above 60. Each challenge includes the exact evidence required, the score impact if confirmed, and the implication if the evidence is not available.
 
-If all five challenges can be answered in a single conversation, no engagement is needed. Aircom has a validated governance artifact and a documented CES above 60 — which is itself a competitive differentiator in a market where AI governance is becoming a procurement criterion.
+If all five challenges can be answered in a single conversation, no engagement is needed. Aircon has a validated governance artifact and a documented CES above 60 — which is itself a competitive differentiator in a market where AI governance is becoming a procurement criterion.
 
 If the answers are not immediately available, that absence is the finding.
 
@@ -34,9 +34,9 @@ If the answers are not immediately available, that absence is the finding.
 
 ## The scoring model
 
-The CES (Criteria Expiration Score) is a five-layer architecture assessment. Each layer is scored independently. The Aircom hypothesis scores are shown below alongside the confirmed layer.
+The CES (Criteria Expiration Score) is a five-layer architecture assessment. Each layer is scored independently. The Aircon hypothesis scores are shown below alongside the confirmed layer.
 
-| Layer | Description | Aircom hypothesis score | Max available |
+| Layer | Description | Aircon hypothesis score | Max available |
 |---|---|---|---|
 | L1 — Action Audit | Agent decision logging and queryability | **20 / 20** ✅ Confirmed | 20 |
 | L2 — Criteria Validity Loop | Mechanism for re-scoring criteria against outcomes | **0 / 25** ⚠️ Not evidenced | 25 |
@@ -69,7 +69,7 @@ The documentation does not need to be formal. It can be a Confluence page, a Sla
 
 ### What confirmation produces
 
-L2 moves from 0 to 25. The overall CES score rises from 42 to approximately 67. At 67, Aircom is in the Watch zone — governance review required on a defined cadence, but no active distortion signal. This is a defensible position for a board or investor audience.
+L2 moves from 0 to 25. The overall CES score rises from 42 to approximately 67. At 67, Aircon is in the Watch zone — governance review required on a defined cadence, but no active distortion signal. This is a defensible position for a board or investor audience.
 
 ### What absence means
 
@@ -109,7 +109,7 @@ Between Q4 2023 and Q2 2025, the following events occurred — each one moving t
 
 ### What confirmation produces
 
-L3 moves from 0 to 20. Combined with a confirmed L2, the overall CES score approaches 72. At this score, Aircom is in the upper Watch zone — a strong governance posture that benchmarks favorably against most logistics AI operators.
+L3 moves from 0 to 20. Combined with a confirmed L2, the overall CES score approaches 72. At this score, Aircon is in the upper Watch zone — a strong governance posture that benchmarks favorably against most logistics AI operators.
 
 ### What absence means
 
@@ -239,9 +239,9 @@ The question is not a trap. It is a diagnostic instrument. The answer, or the in
 
 ## The posture behind this document
 
-This analysis was built without access to Aircom's internal architecture. It may be wrong on any of the four unconfirmed layers. The hypothesis is structured to be falsifiable — and this document is the falsification protocol.
+This analysis was built without access to Aircon's internal architecture. It may be wrong on any of the four unconfirmed layers. The hypothesis is structured to be falsifiable — and this document is the falsification protocol.
 
-The diagnostic sprint exists to answer these five questions with internal data rather than public inference. If all five can be answered in a single conversation, the sprint is unnecessary and Aircom has a validated governance artifact it did not have before. If the answers require investigation to produce, the sprint is the fastest and most cost-effective path from a 42 to an 85.
+The diagnostic sprint exists to answer these five questions with internal data rather than public inference. If all five can be answered in a single conversation, the sprint is unnecessary and Aircon has a validated governance artifact it did not have before. If the answers require investigation to produce, the sprint is the fastest and most cost-effective path from a 42 to an 85.
 
 Either outcome has value. Neither requires a leap of faith.
 
@@ -253,8 +253,8 @@ Either outcome has value. Neither requires a leap of faith.
 ![Attribution Required](https://img.shields.io/badge/Attribution_Required-McDonald_(2026)-2D3436?style=flat-square)
 ![License](https://img.shields.io/badge/License-DACR_v2.6-1D9E75?style=flat-square&labelColor=2D3436)
 
-*All Aircom findings represent a structured public-data hypothesis.*  
-*Nothing in this document reflects confirmed internal Aircom architecture.*
+*All Aircon findings represent a structured public-data hypothesis.*  
+*Nothing in this document reflects confirmed internal Aircon architecture.*
 
 **Behavioral Intelligence Research / Epoch Frameworks LLC**  
 Erwin Maurice McDonald — AI Adoption Architect  

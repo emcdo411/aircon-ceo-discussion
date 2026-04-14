@@ -12,6 +12,7 @@
 ![License](https://img.shields.io/badge/License-DACR_v2.6-1D9E75?style=flat-square&labelColor=2D3436)
 ![Evidence](https://img.shields.io/badge/Evidence_Basis-Public_Data_Only-BA7517?style=flat-square&labelColor=2D3436)
 ![Status](https://img.shields.io/badge/Status-Hypothesis_Grade-D85A30?style=flat-square&labelColor=2D3436)
+![Version](https://img.shields.io/badge/Version-2.0-2D3436?style=flat-square)
 
 ---
 
@@ -28,7 +29,9 @@
 
 This repository holds the full intelligence package developed for the Aircom engagement conversation with Chris Condon, CEO. It benchmarks Aircom's known architecture against Amazon and Airbus on the specific problem of AI decision criteria drift — the gap between what the system was built to optimize for and what current market conditions actually require.
 
-> **Context:** Chris Condon confirmed in a LinkedIn exchange that the gap between *auditability of action* and *knowing when decision criteria have drifted from market reality* is a real and open problem at Aircom. This package names that problem with precision and benchmarks it against two of the most sophisticated logistics AI operators in the world.
+> **Context:** Chris Condon confirmed in a LinkedIn exchange that the gap between *auditability of action* and *knowing when decision criteria have drifted from market reality* is a real and open problem at Aircom. This package names that problem with precision, quantifies the revenue exposure, and benchmarks it against two of the most sophisticated logistics AI operators in the world.
+
+**Version 2.0 adds four consequence layers** that move this package from hypothesis diagnosis to engagement-ready intelligence: a revenue impact estimator, a regime event timeline, a diagnostic sprint scope document, and a structured hypothesis challenge. The architecture benchmark and diagnostic questions from v1.0 remain unchanged.
 
 ---
 
@@ -39,11 +42,16 @@ aircom-criteria-drift-intelligence/
 ├── README.md                                        ← this file
 ├── questions/
 │   └── chris-diagnostic-questions.md               ← three diagnostic questions + call framing
+├── engagement/
+│   └── diagnostic-sprint-scope.md                  ← fixed-fee sprint scope, deliverables, pricing
+├── hypothesis/
+│   └── prove-me-wrong.md                           ← five specific challenges that would move the CES score
 └── visuals/
     ├── chart1_criteria_calibration.png              ← CES score over time — 12-month trajectory
     ├── chart2_silent_distortion_window.png          ← confidence vs. accuracy divergence
     ├── chart3_feedback_loop_speed.png               ← days to recalibrate criteria (bar)
     ├── chart4_five_layer_readiness.png              ← five-layer grouped readiness scores
+    ├── aircom_criteria_drift_dashboard_v2.jsx       ← interactive React dashboard (all layers)
     └── build_charts.py                              ← reproducible FRED-style chart generator
 ```
 
@@ -122,6 +130,96 @@ This is not a technology failure. It is a **governance architecture gap** — an
 
 ---
 
+## Layer 1 — Revenue impact estimator
+
+At CES 42, an estimated **18% of quotes** carry miscalibrated criteria based on EBT Pathway 4 (Temporal Criteria Decay) decay rate modeling. The table below uses conservative Aircom operating assumptions. All inputs are modular — update with confirmed figures after the diagnostic conversation.
+
+| Input | Conservative estimate | Notes |
+|---|---|---|
+| Monthly quote volume | 500 | Update with confirmed Aircom figure |
+| Average deal size | $8,500 | Air freight forwarder mid-market benchmark |
+| Close rate | 28% | Industry average; adjust to Aircom actual |
+| Misprice rate at CES 42 | 18% | EBT Pathway 4 decay model, McDonald (2026) |
+| Avg margin erosion per mispriced quote | 9% | Air freight forwarder benchmark |
+
+| Exposure window | Estimated cost | Basis |
+|---|---|---|
+| Monthly | ~$19,000 | At current CES 42 drift rate |
+| 90-day Silent Distortion cycle | ~$57,000 | One full window at hypothesis parameters |
+| Annual (no recalibration) | ~$228,000 | Compounding drift assumption |
+
+> **Diagnostic sprint ROI:** A $10,000 fixed-fee sprint that confirms or refutes a $57,000 90-day exposure returns approximately 5–6x on confirmation alone — before remediation savings are counted. If the hypothesis is wrong, the sprint produces a governance validation artifact worth more than the fee to any board or investor audience.
+
+The interactive version of this estimator — with live sliders for all input variables — is available in `visuals/aircom_criteria_drift_dashboard_v2.jsx`.
+
+---
+
+## Layer 2 — Regime event timeline
+
+Every event below is a criteria invalidation signal. Each one required an AI quoting system to ask: *"Are the rules we are optimizing against still true?"* Without a regime change protocol, none of these events triggered a mandatory criteria review.
+
+| Date | Event | Market impact | Severity |
+|---|---|---|---|
+| Oct 2023 | Red Sea escalation begins | Routing viability of 12+ freight lanes changes overnight | 🔴 Critical |
+| Jan 2024 | Houthi attacks intensify | Suez Canal diversions — Asia-Europe air freight spike 22% | 🔴 Critical |
+| Mar 2024 | Tariff reclassification wave | HTS code changes affect 800+ SKU categories | 🟠 High |
+| Jun 2024 | Carrier consolidation announcements | Capacity signals shift; spot vs. contract spread widens | 🟡 Medium |
+| Sep 2024 | Peak season demand surge | Rate volatility exceeds model training baseline | 🟠 High |
+| Jan 2025 | Tariff acceleration — new schedule | Classification criteria from prior year now partially invalid | 🔴 Critical |
+| Mar 2025 | Red Sea partial normalization | Routing viability criteria shift again — opposite direction | 🟠 High |
+| Apr 2025 | Q1 earnings + rate reset | Carrier pricing floors reset; quote models operating on stale data | 🔴 Critical |
+
+**The accumulation problem:** 8 regime-level events in 18 months. Each one moved the market away from the criteria baseline. A system without drift detection absorbed all 8 silently. The question for the diagnostic conversation is not whether this happened — it is how much of the gap is still open today.
+
+---
+
+## Layer 3 — Diagnostic sprint scope
+
+See [`engagement/diagnostic-sprint-scope.md`](engagement/diagnostic-sprint-scope.md) for the full document.
+
+**Engagement type:** Fixed-fee diagnostic sprint — not a time-and-materials retainer.
+
+**Price:** $8,500 to $12,000 flat, depending on access complexity.
+
+**Duration:** 3 to 4 weeks.
+
+**Access required:** CTO + approximately 2 hours with VP Engineering.
+
+| Week | Focus | Primary deliverable |
+|---|---|---|
+| Week 1 | Architecture intake | Criteria encoding map — who set the rules, when, how |
+| Week 2 | Benchmark mapping | Confirmed gap vs. hypothesis gap — five-layer scored |
+| Week 3 | Silent Distortion Audit | Actual SDW from internal data; revenue exposure quantified |
+| Week 4 | Deliverable + roadmap | Confirmed CES scorecard + governance remediation roadmap |
+
+**Both outcomes produce something valuable:**
+
+If the CES 42 hypothesis is confirmed — Aircom receives a board-ready risk quantification, a remediation roadmap with estimated ROI, and a clear path to a 90-day governance engagement.
+
+If the hypothesis is disproved — Aircom receives a documented governance validation, a CES score above 60, and a competitive differentiation artifact for board and investor reporting.
+
+There is no outcome where a well-run diagnostic produces nothing.
+
+---
+
+## Layer 4 — Prove the hypothesis wrong
+
+See [`hypothesis/prove-me-wrong.md`](hypothesis/prove-me-wrong.md) for the full document.
+
+The Aircom CES score of 42 is built entirely from public data. Below are the five specific data points that would move the score. This is not a sales document. It is a structured invitation to disprove the analysis — and a precise description of what that proof requires.
+
+| # | Challenge | If confirmed | If not available |
+|---|---|---|---|
+| 1 | Show a documented cadence for reviewing whether AI decision criteria are still calibrated to current market conditions | CES Layer 2 rises from 0 to 25 — overall score ~67, Watch zone | Gap confirmed. Layer 2 holds at 0. |
+| 2 | Show a named protocol that fires when a macro event occurs and forces a criteria audit | CES Layer 3 rises — overall score approaches 72 | No trigger = no floor on distortion window duration |
+| 3 | Show where quote outcome divergence signals route — criteria layer or reporting layer only | CES Layer 2 receives additional credit — estimated score 78–82 | Loop open. Drift accumulates silently. |
+| 4 | Show how live spot rate or carrier reliability signals are injected at the decision layer, not the audit log | CES Layer 4 upgrades — full score approaches 85+ | Static criteria in a volatile market = SDW confirmed |
+| 5 | State the date the underlying decision criteria were last reviewed against current market conditions | Within 30 days = strong signal. Beyond 90 days = distortion likely active. | If the date is unknown, that itself is the finding. |
+
+> The diagnostic sprint exists precisely to answer these five questions with internal data rather than public inference. If all five can be answered in the next conversation, no engagement is needed and Aircom has a validated governance artifact. If the answers are not available, the sprint is the fastest path from hypothesis to certainty.
+
+---
+
 ## Diagnostic questions for Chris Condon
 
 See [`questions/chris-diagnostic-questions.md`](questions/chris-diagnostic-questions.md) for the full framing.
@@ -170,7 +268,21 @@ pip install matplotlib numpy
 python3 visuals/build_charts.py
 ```
 
-Charts output to the working directory at 180 DPI. All scoring values are modular — update any score constant at the top of each function and rerun after the Chris call confirms or corrects the internal architecture. No external data dependencies.
+The interactive React dashboard (`visuals/aircom_criteria_drift_dashboard_v2.jsx`) requires React 18+ with standard hooks. Drop into any Create React App or Next.js project. No external dependencies beyond React itself.
+
+Charts output at 180 DPI. All scoring values are modular — update any score constant at the top of each function and rerun after the diagnostic conversation confirms or corrects the internal architecture.
+
+---
+
+## What's new in v2.0
+
+| Addition | Purpose |
+|---|---|
+| Revenue Impact Estimator | Converts CES 42 into a dollar figure Chris arrives at with his own numbers |
+| Regime Event Timeline | Moves the hypothesis from theoretical to already-happened across 8 specific events |
+| Diagnostic Sprint Scope | Documents the $8,500–$12,000 engagement before the pitch conversation happens |
+| Prove Me Wrong | Earns trust with a CEO who hasn't asked for any of this — five specific disproof challenges |
+| Interactive JSX Dashboard | All layers in a single navigable interface — shareable as a live artifact |
 
 ---
 
@@ -181,6 +293,7 @@ Charts output to the working directory at 180 DPI. All scoring values are modula
 ![Build](https://img.shields.io/badge/Charts-4_passing-1D9E75?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-2D3436?style=flat-square&logo=python&logoColor=white)
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.x-2D3436?style=flat-square)
+![React](https://img.shields.io/badge/React-18%2B-2D3436?style=flat-square&logo=react&logoColor=61DAFB)
 
 *All Aircom findings represent a structured public-data hypothesis.*  
 *Nothing in this repository reflects confirmed internal Aircom architecture.*  

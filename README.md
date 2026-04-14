@@ -1,9 +1,9 @@
 <div align="center">
 
-# Aircom Criteria Drift Intelligence
+# Aircon Criteria Drift Intelligence
 
 **A structured public-data intelligence package benchmarking AI decision criteria drift architecture**  
-**across Amazon, Airbus, and Aircom — prepared for executive diagnostic conversation**
+**across Amazon, Airbus, and Aircon — prepared for executive diagnostic conversation**
 
 ---
 
@@ -27,9 +27,9 @@
 
 ## What this repo contains
 
-This repository holds the full intelligence package developed for the Aircom engagement conversation with Chris Condon, CEO. It benchmarks Aircom's known architecture against Amazon and Airbus on the specific problem of AI decision criteria drift — the gap between what the system was built to optimize for and what current market conditions actually require.
+This repository holds the full intelligence package developed for the Aircon engagement conversation with Chris Condon, CEO. It benchmarks Aircon's known architecture against Amazon and Airbus on the specific problem of AI decision criteria drift — the gap between what the system was built to optimize for and what current market conditions actually require.
 
-> **Context:** Chris Condon confirmed in a LinkedIn exchange that the gap between *auditability of action* and *knowing when decision criteria have drifted from market reality* is a real and open problem at Aircom. This package names that problem with precision, quantifies the revenue exposure, and benchmarks it against two of the most sophisticated logistics AI operators in the world.
+> **Context:** Chris Condon confirmed in a LinkedIn exchange that the gap between *auditability of action* and *knowing when decision criteria have drifted from market reality* is a real and open problem at Aircon. This package names that problem with precision, quantifies the revenue exposure, and benchmarks it against two of the most sophisticated logistics AI operators in the world.
 
 **Version 2.0 adds four consequence layers** that move this package from hypothesis diagnosis to engagement-ready intelligence: a revenue impact estimator, a regime event timeline, a diagnostic sprint scope document, and a structured hypothesis challenge. The architecture benchmark and diagnostic questions from v1.0 remain unchanged.
 
@@ -71,7 +71,7 @@ This is not a technology failure. It is a **governance architecture gap** — an
 
 ## Benchmark summary
 
-| Layer | ![Amazon](https://img.shields.io/badge/-Amazon-1D9E75?style=flat-square) | ![Airbus](https://img.shields.io/badge/-Airbus-534AB7?style=flat-square) | ![Aircom](https://img.shields.io/badge/-Aircom_hypothesis-D85A30?style=flat-square) |
+| Layer | ![Amazon](https://img.shields.io/badge/-Amazon-1D9E75?style=flat-square) | ![Airbus](https://img.shields.io/badge/-Airbus-534AB7?style=flat-square) | ![Aircon](https://img.shields.io/badge/-Aircon_hypothesis-D85A30?style=flat-square) |
 |---|---|---|---|
 | Action audit | Full, real-time | Full, event log | ✅ Confirmed strength |
 | Criteria validity loop | Transaction-level (hours) | Program-level (weeks) | ⚠️ Not evidenced |
@@ -96,14 +96,14 @@ This is not a technology failure. It is a **governance architecture gap** — an
 | 40–59 | Recalibration flag | Mandatory review before downstream decisions |
 | Below 40 | Silent distortion active | Confident outputs likely miscalibrated — halt and audit |
 
-> **Aircom hypothesis CES: 42/100** — sits at the boundary between recalibration flag and silent distortion active. One regime event away from confirmed distortion.
+> **Aircon hypothesis CES: 42/100** — sits at the boundary between recalibration flag and silent distortion active. One regime event away from confirmed distortion.
 
 ---
 
 ## Visuals
 
 ### Chart 1 — Criteria Calibration Score Over Time
-> 12-month trajectory. Amazon holds above 85. Airbus dips and recovers. Aircom slides past both thresholds after the regime shift event. The coral fill below the threshold makes the risk zone unambiguous.
+> 12-month trajectory. Amazon holds above 85. Airbus dips and recovers. Aircon slides past both thresholds after the regime shift event. The coral fill below the threshold makes the risk zone unambiguous.
 
 ![chart1](visuals/chart1_criteria_calibration.png)
 
@@ -117,14 +117,14 @@ This is not a technology failure. It is a **governance architecture gap** — an
 ---
 
 ### Chart 3 — Feedback Loop Closure Speed
-> Amazon: 6 hours. Airbus: 7 days. Aircom hypothesis: 75 days. No annotation required. The bar tells the story.
+> Amazon: 6 hours. Airbus: 7 days. Aircon hypothesis: 75 days. No annotation required. The bar tells the story.
 
 ![chart3](visuals/chart3_feedback_loop_speed.png)
 
 ---
 
 ### Chart 4 — Five-Layer Readiness Scores
-> Action audit shows all three roughly matched. Every other layer, Aircom bars sit below the minimum threshold line. The pattern — matched on the one layer that exists, below threshold on the four that don't — is the board-level argument.
+> Action audit shows all three roughly matched. Every other layer, Aircon bars sit below the minimum threshold line. The pattern — matched on the one layer that exists, below threshold on the four that don't — is the board-level argument.
 
 ![chart4](visuals/chart4_five_layer_readiness.png)
 
@@ -132,13 +132,13 @@ This is not a technology failure. It is a **governance architecture gap** — an
 
 ## Layer 1 — Revenue impact estimator
 
-At CES 42, an estimated **18% of quotes** carry miscalibrated criteria based on EBT Pathway 4 (Temporal Criteria Decay) decay rate modeling. The table below uses conservative Aircom operating assumptions. All inputs are modular — update with confirmed figures after the diagnostic conversation.
+At CES 42, an estimated **18% of quotes** carry miscalibrated criteria based on EBT Pathway 4 (Temporal Criteria Decay) decay rate modeling. The table below uses conservative Aircon operating assumptions. All inputs are modular — update with confirmed figures after the diagnostic conversation.
 
 | Input | Conservative estimate | Notes |
 |---|---|---|
-| Monthly quote volume | 500 | Update with confirmed Aircom figure |
+| Monthly quote volume | 500 | Update with confirmed Aircon figure |
 | Average deal size | $8,500 | Air freight forwarder mid-market benchmark |
-| Close rate | 28% | Industry average; adjust to Aircom actual |
+| Close rate | 28% | Industry average; adjust to Aircon actual |
 | Misprice rate at CES 42 | 18% | EBT Pathway 4 decay model, McDonald (2026) |
 | Avg margin erosion per mispriced quote | 9% | Air freight forwarder benchmark |
 
@@ -194,9 +194,9 @@ See [`engagement/diagnostic-sprint-scope.md`](engagement/diagnostic-sprint-scope
 
 **Both outcomes produce something valuable:**
 
-If the CES 42 hypothesis is confirmed — Aircom receives a board-ready risk quantification, a remediation roadmap with estimated ROI, and a clear path to a 90-day governance engagement.
+If the CES 42 hypothesis is confirmed — Aircon receives a board-ready risk quantification, a remediation roadmap with estimated ROI, and a clear path to a 90-day governance engagement.
 
-If the hypothesis is disproved — Aircom receives a documented governance validation, a CES score above 60, and a competitive differentiation artifact for board and investor reporting.
+If the hypothesis is disproved — Aircon receives a documented governance validation, a CES score above 60, and a competitive differentiation artifact for board and investor reporting.
 
 There is no outcome where a well-run diagnostic produces nothing.
 
@@ -206,7 +206,7 @@ There is no outcome where a well-run diagnostic produces nothing.
 
 See [`hypothesis/prove-me-wrong.md`](hypothesis/prove-me-wrong.md) for the full document.
 
-The Aircom CES score of 42 is built entirely from public data. Below are the five specific data points that would move the score. This is not a sales document. It is a structured invitation to disprove the analysis — and a precise description of what that proof requires.
+The Aircon CES score of 42 is built entirely from public data. Below are the five specific data points that would move the score. This is not a sales document. It is a structured invitation to disprove the analysis — and a precise description of what that proof requires.
 
 | # | Challenge | If confirmed | If not available |
 |---|---|---|---|
@@ -216,7 +216,7 @@ The Aircom CES score of 42 is built entirely from public data. Below are the fiv
 | 4 | Show how live spot rate or carrier reliability signals are injected at the decision layer, not the audit log | CES Layer 4 upgrades — full score approaches 85+ | Static criteria in a volatile market = SDW confirmed |
 | 5 | State the date the underlying decision criteria were last reviewed against current market conditions | Within 30 days = strong signal. Beyond 90 days = distortion likely active. | If the date is unknown, that itself is the finding. |
 
-> The diagnostic sprint exists precisely to answer these five questions with internal data rather than public inference. If all five can be answered in the next conversation, no engagement is needed and Aircom has a validated governance artifact. If the answers are not available, the sprint is the fastest path from hypothesis to certainty.
+> The diagnostic sprint exists precisely to answer these five questions with internal data rather than public inference. If all five can be answered in the next conversation, no engagement is needed and Aircon has a validated governance artifact. If the answers are not available, the sprint is the fastest path from hypothesis to certainty.
 
 ---
 
@@ -295,8 +295,8 @@ Charts output at 180 DPI. All scoring values are modular — update any score co
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.x-2D3436?style=flat-square)
 ![React](https://img.shields.io/badge/React-18%2B-2D3436?style=flat-square&logo=react&logoColor=61DAFB)
 
-*All Aircom findings represent a structured public-data hypothesis.*  
-*Nothing in this repository reflects confirmed internal Aircom architecture.*  
+*All Aircon findings represent a structured public-data hypothesis.*  
+*Nothing in this repository reflects confirmed internal Aircon architecture.*  
 *This package was developed to support a diagnostic conversation — not to assert findings as fact.*
 
 **Behavioral Intelligence Research / Epoch Frameworks LLC**  

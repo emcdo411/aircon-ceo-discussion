@@ -33,26 +33,36 @@ This repository holds the full intelligence package developed for the Aircon eng
 
 **Version 2.0 adds four consequence layers** that move this package from hypothesis diagnosis to engagement-ready intelligence: a revenue impact estimator, a regime event timeline, a diagnostic sprint scope document, and a structured hypothesis challenge. The architecture benchmark and diagnostic questions from v1.0 remain unchanged.
 
+See [`intelligence/ebt-sce-audit.md`](intelligence/ebt-sce-audit.md) for the structural explanation of why criteria drift is invisible to internal teams.
+
+See [`intelligence/stakeholder-resistance-map.md`](intelligence/stakeholder-resistance-map.md) for the adoption friction map — prepared for CTO pre-briefing before the sprint begins.
+
 ---
 
 ## Repo structure
 
 ```
 aircom-criteria-drift-intelligence/
-├── README.md                                        ← this file
+├── README.md
+├── LICENSE.md
 ├── questions/
-│   └── chris-diagnostic-questions.md               ← three diagnostic questions + call framing
-├── engagement/
-│   └── diagnostic-sprint-scope.md                  ← fixed-fee sprint scope, deliverables, pricing
+│   └── chris-diagnostic-questions.md       ← three diagnostic questions + call framing
 ├── hypothesis/
-│   └── prove-me-wrong.md                           ← five specific challenges that would move the CES score
+│   └── prove-me-wrong.md                   ← five challenges that would move CES above 60
+├── engagement/
+│   └── engagement-framework.md            ← fixed-fee diagnostic sprint scope and pricing
+├── intelligence/
+│   ├── ebt-sce-audit.md                    ← why criteria drift is invisible from the inside
+│   └── stakeholder-resistance-map.md      ← adoption friction map for CTO pre-briefing
+├── protocol/
+│   └── post-call-update-protocol.md       ← how hypothesis scores update after the call
 └── visuals/
-    ├── chart1_criteria_calibration.png              ← CES score over time — 12-month trajectory
-    ├── chart2_silent_distortion_window.png          ← confidence vs. accuracy divergence
-    ├── chart3_feedback_loop_speed.png               ← days to recalibrate criteria (bar)
-    ├── chart4_five_layer_readiness.png              ← five-layer grouped readiness scores
-    ├── aircom_criteria_drift_dashboard_v2.jsx       ← interactive React dashboard (all layers)
-    └── build_charts.py                              ← reproducible FRED-style chart generator
+    ├── chart1_criteria_calibration.png
+    ├── chart2_silent_distortion_window.png
+    ├── chart3_feedback_loop_speed.png
+    ├── chart4_five_layer_readiness.png
+    ├── aircom_criteria_drift_dashboard_v2.jsx
+    └── build_charts.py
 ```
 
 ---
@@ -175,7 +185,7 @@ Every event below is a criteria invalidation signal. Each one required an AI quo
 
 ## Layer 3 — Diagnostic sprint scope
 
-See [`engagement/diagnostic-sprint-scope.md`](engagement/diagnostic-sprint-scope.md) for the full document.
+See [`engagement/engagement-framework.md`](engagement/engagement-framework.md) for the full document.
 
 **Engagement type:** Fixed-fee diagnostic sprint — not a time-and-materials retainer.
 
@@ -217,6 +227,24 @@ The Aircon CES score of 42 is built entirely from public data. Below are the fiv
 | 5 | State the date the underlying decision criteria were last reviewed against current market conditions | Within 30 days = strong signal. Beyond 90 days = distortion likely active. | If the date is unknown, that itself is the finding. |
 
 > The diagnostic sprint exists precisely to answer these five questions with internal data rather than public inference. If all five can be answered in the next conversation, no engagement is needed and Aircon has a validated governance artifact. If the answers are not available, the sprint is the fastest path from hypothesis to certainty.
+
+---
+
+## Intelligence layer
+
+The `intelligence/` folder houses the analytical and explanatory documents that contextualize the hypothesis. These are not engagement instruments — they are the intellectual architecture behind the diagnosis.
+
+See [`intelligence/ebt-sce-audit.md`](intelligence/ebt-sce-audit.md) — explains the mechanism behind criteria drift and why it is structurally invisible to internal teams. This answers the question a CTO will ask first: *why can't we see this ourselves?*
+
+See [`intelligence/stakeholder-resistance-map.md`](intelligence/stakeholder-resistance-map.md) — maps adoption friction and human dynamics for CTO pre-briefing before the sprint begins. This answers the question a CTO will ask second: *what will this do to my team?*
+
+---
+
+## Protocol layer
+
+The `protocol/` folder governs how the engagement evolves based on what is confirmed or refuted in the diagnostic conversation.
+
+See [`protocol/post-call-update-protocol.md`](protocol/post-call-update-protocol.md) — a score update decision tree that defines how hypothesis scores are revised after the call. Confirmed information replaces inference at defined thresholds. This is not intelligence and not engagement scope — it governs the evidence loop.
 
 ---
 
@@ -283,6 +311,8 @@ Charts output at 180 DPI. All scoring values are modular — update any score co
 | Diagnostic Sprint Scope | Documents the $8,500–$12,000 engagement before the pitch conversation happens |
 | Prove Me Wrong | Earns trust with a CEO who hasn't asked for any of this — five specific disproof challenges |
 | Interactive JSX Dashboard | All layers in a single navigable interface — shareable as a live artifact |
+| Intelligence folder | EBT-SCE audit + stakeholder resistance map — the intellectual architecture behind the diagnosis |
+| Protocol folder | Post-call update protocol — governs how the evidence loop closes after the conversation |
 
 ---
 

@@ -1,14 +1,14 @@
-# Aircom — Diagnostic Questions for Chris Condon
+# Aircon — Diagnostic Questions for Chris Condon
 **Prepared by:** Erwin Maurice McDonald, AI Adoption Architect  
 **Framework:** EBT v2.6 (Pathway 4 — Temporal Criteria Decay) × AI Adoption Architect v6.1  
 **Date:** April 2026  
-**Evidence basis:** Public data only. All Aircom inferences are hypothesis-grade until confirmed.
+**Evidence basis:** Public data only. All Aircon inferences are hypothesis-grade until confirmed.
 
 ---
 
 ## The core problem we are diagnosing
 
-Aircom has confirmed audit trail architecture for what agents *do*. The open question is whether Aircom has a parallel layer that continuously asks: **are the criteria agents are following still calibrated to current market conditions?**
+Aircon has confirmed audit trail architecture for what agents *do*. The open question is whether Aircon has a parallel layer that continuously asks: **are the criteria agents are following still calibrated to current market conditions?**
 
 In air freight right now — Red Sea routing disruptions, accelerated tariff changes, carrier capacity shifts — the gap between when criteria were encoded and when they are being applied can produce confidently wrong outputs with no internal signal that anything has changed. This is what the research calls a **Silent Distortion Window**.
 
@@ -64,7 +64,7 @@ The competitive exposure here is not a technical failure — it is a market inte
 
 ## Benchmark context for the conversation
 
-| Layer | Amazon | Airbus | Aircom hypothesis |
+| Layer | Amazon | Airbus | Aircon hypothesis |
 |---|---|---|---|
 | Action audit | Full, real-time | Full, event log | Confirmed |
 | Criteria validity loop | Transaction-level (hours) | Program-level (weeks) | Not evidenced |

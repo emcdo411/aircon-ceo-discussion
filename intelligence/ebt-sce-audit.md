@@ -53,11 +53,11 @@ Most governance processes do not reach that layer. Most audit trails document wh
 
 **This is Objectivity Laundering:** the process by which human evaluative judgment, encoded as algorithmic criteria, re-emerges as unchallengeable output.
 
-The bias — or in the Aircom context, the criteria decay — is not visible because the system is doing exactly what it was built to do. It is doing it correctly. The criteria it is executing against are the ones it was given. The problem is that those criteria describe a market that existed 18 months ago.
+The bias — or in the Aircon context, the criteria decay — is not visible because the system is doing exactly what it was built to do. It is doing it correctly. The criteria it is executing against are the ones it was given. The problem is that those criteria describe a market that existed 18 months ago.
 
 ---
 
-## Why this is specific to Aircom's architecture context
+## Why this is specific to Aircon's architecture context
 
 The air freight domain has a characteristic that makes SCE and Objectivity Laundering particularly acute: **the signal volatility is among the highest of any logistics domain.**
 
@@ -95,7 +95,7 @@ Internal performance metrics — quote accuracy, close rates, margin performance
 
 ---
 
-## The ASHEN classification for Aircom's encoded expertise
+## The ASHEN classification for Aircon's encoded expertise
 
 Using the EBT ASHEN knowledge taxonomy, the expertise encoded in an air freight AI quoting system can be classified as follows:
 

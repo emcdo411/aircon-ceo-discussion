@@ -4,7 +4,7 @@
 **License Designation:** DACR v2.6  
 **Issued by:** Erwin Maurice McDonald  
 **Organization:** Behavioral Intelligence Research / Epoch Frameworks LLC  
-**Repository:** `emcdo411/aircom-ceo-discussion`  
+**Repository:** `emcdo411/aircon-ceo-discussion`  
 **Effective Date:** April 13, 2026  
 **Jurisdiction:** United States of America (Texas governing law)
 
@@ -91,7 +91,7 @@ Framework(s) from:
 Erwin Maurice McDonald — AI Adoption Architect
 Behavioral Intelligence Research / Epoch Frameworks LLC
 DACR License v2.6 | McDonald (2026)
-Source: https://github.com/emcdo411/aircom-ceo-discussion
+Source: https://github.com/emcdo411/aircon-ceo-discussion
 ```
 
 Attribution must appear:
@@ -170,7 +170,7 @@ DACR License v2.6
 Erwin Maurice McDonald
 Behavioral Intelligence Research / Epoch Frameworks LLC
 April 13, 2026
-https://github.com/emcdo411/aircom-ceo-discussion
+https://github.com/emcdo411/aircon-ceo-discussion
 ```
 
 *This license was purpose-built for diagnostic and analytical intellectual property

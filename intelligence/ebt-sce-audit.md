@@ -17,7 +17,7 @@
 
 ## The question this document answers
 
-The Aircom CES hypothesis of 42/100 raises an implicit question that every technically sophisticated leadership team will ask: *If our system has criteria drift, why don't we see it?*
+The Aircon CES hypothesis of 42/100 raises an implicit question that every technically sophisticated leadership team will ask: *If our system has criteria drift, why don't we see it?*
 
 The answer is not a technology failure. It is not a team failure. It is a governance architecture phenomenon with a formal name: **Structural Criteria Encoding**, followed by **Objectivity Laundering**.
 
